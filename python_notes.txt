@@ -34,3 +34,23 @@
 - modules and importing
 	- exercise 13
 	- from sys import argv
+- reading files
+	- text = open(filename)
+	- print(text.read())
+	- text.close()
+	- file commands: 
+		close -- Closes the file. Like File->Save.. in your editor.
+		read -- Reads the contents of the file. You can assign the result to a variable.
+		readline -- Reads just one line of a text file.
+		truncate -- Empties the file. Watch out if you care about the file.
+		write('stuff') -- Writes "stuff" to the file.
+	- exercise 15
+- opening files
+	- permissions
+		w - write
+		r - read
+		a - append
+	- permission modifiers
+		w+ , r+ , a+ - opens file in read and write mode
+	- open() defaults to read
+	- exercise 16
