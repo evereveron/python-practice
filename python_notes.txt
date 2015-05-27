@@ -1,2 +1,33 @@
 - run with 
 	python <filename>.py
+- formatting and printing variables
+	- %r for debugging, since it displays the "raw" data of the variable
+	- the others (%s, %d, etc) are used for displaying to users.
+	- exercise 6
+- printing strings
+	- can use * to print something several times
+	- print("." *10)
+	- exercise 7
+- escape characters
+	\\	Backslash ()
+	\'	Single-quote (')
+	\"	Double-quote (")
+	\a	ASCII bell (BEL)
+	\b	ASCII backspace (BS)
+	\f	ASCII formfeed (FF)
+	\n	ASCII linefeed (LF)
+	\N{name}	Character named name in the Unicode database (Unicode only)
+	\r ASCII	Carriage Return (CR)
+	\t ASCII	Horizontal Tab (TAB)
+	\uxxxx	Character with 16-bit hex value xxxx (Unicode only)
+	\Uxxxxxxxx	Character with 32-bit hex value xxxxxxxx (Unicode only)
+	\v	ASCII vertical tab (VT)
+	\ooo	Character with octal value ooo
+	\xhh	Character with hex value hh
+	- exercise 10
+- input
+	- input() vs raw_input()?
+		- The input() function will try to convert things you enter as if they were Python code, but it has security problems so you should avoid it.
+		- this is for python 2
+	- get a number
+		- x = int(raw_input()) 
