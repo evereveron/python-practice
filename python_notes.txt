@@ -31,3 +31,6 @@
 		- this is for python 2
 	- get a number
 		- x = int(raw_input()) 
+- modules and importing
+	- exercise 13
+	- from sys import argv
